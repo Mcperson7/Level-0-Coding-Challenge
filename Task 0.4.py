@@ -5,5 +5,5 @@ def even_or_Odd(num):
     else:
         return "even"
 
-num = int(input("Enter a number to see if it's ODD or EVEN"))    
-print(num,"is an: " + even_or_Odd(num))
+num = int(input("Enter a number to see if it's ODD or EVEN "))    
+print(even_or_Odd(num))

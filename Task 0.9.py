@@ -4,7 +4,7 @@ def vowel_search(word):
     
     vowels = r"[AaEeIiOoUu]"
 
-    if re.search(vowels, word):
+    if re.match(vowels, word):
         for i in word:
             if i in vowels:
                 print(i, end = " ")
