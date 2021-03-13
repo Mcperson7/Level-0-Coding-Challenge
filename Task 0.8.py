@@ -1,4 +1,4 @@
-def number_to_time_converter():
+def number_to_time():
     
     hour = num // 60
     minut = num % 60
@@ -17,4 +17,4 @@ def number_to_time_converter():
         return str(hour) +" hours, " + str(minut) + " minutes"
 
 num = int(input("Enter any number to get it converted to time: "))    
-print(num, "Converted to time is: ", number_to_time_converter())
+print(num, "Converted to time is: ", number_to_time())

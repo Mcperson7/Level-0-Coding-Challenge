@@ -1,4 +1,3 @@
-#This Program will print out all vowels of any word
 import re
 
 def vowel_search(word):

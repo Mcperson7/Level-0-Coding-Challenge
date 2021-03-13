@@ -1,32 +1,32 @@
-def max_number(a,b,c):
+def max_number(num1,num2,num3):
     
-    if a > b and a > c:
-        print (a)
-    elif b > c and b > a:
-        print (b)
+    if num1 > num2 and num1 > num3:
+        print (num)
+    elif num2 > num3 and num2 > num1:
+        print (num2)
     else:
-        print (c)
+        print (num3)
 
-a = 89564
-b = 78000
-c = 745        
+num1 = 89564
+num2 = 78000
+num3 = 745        
         
-max_number(a,b,c)
+max_number(num1,num2,num3)
 
 '''Below is the same updated fuction as top on
 the only difference is that this one accepts user input'''
 
-def maximum_num(a,b,c):
+def max_number(num1,num2,num3):
     
-    if b > a and b > c:
-        return b
-    elif c > a and c > b:
-        return c
+    if num2 > num1 and num2 > num3:
+        return num2
+    elif num3 > num1 and num3 > num2:
+        return num3
     else:
-        return a
+        return num1
     
-a = int(input("Enter the value of a "))
-b = int(input("Enter the value of b "))
-c = int(input("Enter the value of c "))
+num1 = int(input("Enter the value of num1 "))
+num2 = int(input("Enter the value of num2 "))
+num3 = int(input("Enter the value of num3 "))
 
-print("The Maximum Value is : ", maximum_num(a,b,c))
+print("The Maximum Value is : ", maximum_num(num1,num2,num3))

@@ -1,4 +1,3 @@
-#This program will look for matching characters of any two string, then print them out
 def common_charecter(word1,word2):
     
     for i in word1:
