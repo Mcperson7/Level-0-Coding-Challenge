@@ -13,7 +13,7 @@ num3 = 745
         
 print("Max Number: ", max_number(num1,num2,num3))
 
-'''Below is the same updated fuction as top on
+'''Below is the same updated fuction as top one,
 the only difference is that this one accepts user input'''
 
 def maximum_num(num1,num2,num3):
