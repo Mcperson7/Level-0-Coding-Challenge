@@ -1,9 +1,9 @@
-def even_or_Odd(num):
+def even_or_odd(num):
     
     if num % 2 == 1:
-        return "odd"
+        print("odd")
     else:
-        return "even"
+        print("even")
 
-num = int(input("Enter a number to see if it's ODD or EVEN "))    
-print(even_or_Odd(num))
+num = int(input("Enter a number to check if it's ODD or EVEN "))    
+even_or_odd(num)
