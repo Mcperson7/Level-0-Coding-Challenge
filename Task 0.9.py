@@ -9,5 +9,4 @@ def vowel_search(word):
             if i in vowels:
                 print(i, end = " ")
                 
-word = input("Enter any word ")
-vowel_search(word) 
+vowel_search("James") 
