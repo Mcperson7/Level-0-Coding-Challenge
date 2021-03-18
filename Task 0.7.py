@@ -7,7 +7,7 @@ def celsius_to_fahrenheit(celsius):
 
 print(celsius_to_fahrenheit(54))
 
-#Different conversion, from fahrenheit to celsius
+'''The Below function reverses the above conversion, from fahrenheit to celsius'''
 
 def fahrenheit_to_Cels(fahr):
     
